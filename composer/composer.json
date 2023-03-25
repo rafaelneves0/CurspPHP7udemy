@@ -1,0 +1,19 @@
+{
+    "name": "rafaelneves/composer",
+    "description": "Aula de PHP 7 Aprendendo a utilizar o composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Rafaelneves\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Neves"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
